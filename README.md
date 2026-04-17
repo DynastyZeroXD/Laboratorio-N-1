@@ -1,49 +1,32 @@
-# Laboratorio-N-1
-# 📌 Descripción
+# 🧪 Laboratorio N°1 – Automatización con Selenium (POM)
 
-Este proyecto implementa pruebas automatizadas utilizando Selenium WebDriver en Java, aplicando el patrón Page Object Model (POM) para  mejorar la organización y mantenimiento del código.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=testing-library&logoColor=white)
 
-# 🚀 Funcionalidades automatizadas
--Login de usuario
--Agregar producto al carrito
--Validar que el carrito contiene 1 producto
--Manejo de esperas explícitas (WebDriverWait)
--Generación de reportes de pruebas
+---
 
-# 🧱 Tecnologías usadas
--Java
--Selenium WebDriver
--JUnit / TestNG
--Maven (gestión de dependencias)
+## 📌 Descripción
+Proyecto de automatización de pruebas usando **Selenium WebDriver en Java**, aplicando el patrón **Page Object Model (POM)** para mejorar la mantenibilidad y escalabilidad del código.
 
-# ⚙️ Instalación y ejecución
--Clonar el repositorio:
-git clone <URL_DEL_REPO>
--Abrir el proyecto en tu IDE (IntelliJ / Eclipse)
--Instalar dependencias con Maven:
-mvn clean install
--Ejecutar pruebas:
-mvn test
+---
 
-# 🧩 Patrón POM
-Cada página de la aplicación se representa como una clase, separando:
+## 🚀 Funcionalidades
+- ✅ Login de usuario
+- 🛒 Agregar producto al carrito
+- ✔️ Validar que el carrito contiene 1 producto
+- ⏳ Uso de esperas explícitas (`WebDriverWait`)
+- 📊 Generación de reportes de pruebas
 
--Localizadores (By)
--Acciones (métodos)
--Lógica de interacción
+---
 
-# ✅ Ejemplo de prueba
--Login válido
--Selección de producto
--Agregar al carrito
--Validación del carrito
+## 🧱 Tecnologías
+- Java
+- Selenium WebDriver
+- JUnit / TestNG
+- Maven
 
-# 📊 Reportes
+---
 
-Los reportes de ejecución se generan automáticamente después de correr las pruebas (dependiendo de la configuración de JUnit/TestNG).
-
-# ⚠️ Requisitos
--Java 8 o superior
--Maven instalado
--Navegador (Chrome/Firefox)
--WebDriver configurado
+## 📁 Estructura del proyecto
