@@ -32,20 +32,20 @@ Proyecto de automatización de pruebas usando **Selenium WebDriver en Java**, ap
 ## 📁 Estructura del proyecto
 src/
 ├── main/
-│ └── java/
-│ └── pages/ # Clases Page Object
-│ ├── LoginPage.java
-│ ├── ProductsPage.java
-│ └── CartPage.java
+  │ └── java/
+    │ └── pages/ # Clases Page Object
+      │ ├── LoginPage.java
+        │ ├── ProductsPage.java
+        │ └── CartPage.java
 │
-├── test/
-│ └── java/
-│ └── tests/ # Casos de prueba
-│ ├── LoginTest.java
-│ └── CartTest.java
-│
-└── resources/
-└── config.properties # Configuración
+  ├── test/
+    │ └── java/
+      │ └── tests/ # Casos de prueba
+      │ ├── LoginTest.java
+      │ └── CartTest.java
+      │
+        └── resources/
+          └── config.properties # Configuración
 
 
 ---
