@@ -29,44 +29,22 @@ Proyecto de automatización de pruebas usando **Selenium WebDriver en Java**, ap
 
 ---
 
-## 📁 Estructura del proyecto
-src/
-├── main/
-  │ └── java/
-    │ └── pages/ # Clases Page Object
-      │ ├── LoginPage.java
-        │ ├── ProductsPage.java
-        │ └── CartPage.java
-│
-  ├── test/
-    │ └── java/
-      │ └── tests/ # Casos de prueba
-      │ ├── LoginTest.java
-      │ └── CartTest.java
-      │
-        └── resources/
-          └── config.properties # Configuración
+## 🧩 Patrón POM
+Cada página se modela como una clase independiente:
 
+- Localizadores (`By`)
+- Métodos de interacción
+- Lógica reutilizable
 
----
-
-## 🧩 Patrón Page Object Model (POM)
-
-El patrón POM permite separar la lógica de la UI en clases independientes:
-
-### 📍 Ventajas
-- Código más limpio
-- Fácil mantenimiento
-- Reutilización de métodos
-- Escalabilidad del proyecto
+✔ Reduce duplicación  
+✔ Mejora mantenimiento  
+✔ Escala fácilmente  
 
 ---
 
 ## ⚙️ Instalación
 
-### 1. Clonar repositorio
 ```bash
-git clone <URL_DEL_REPO>
-cd <NOMBRE_DEL_PROYECTO>
+git clone https://github.com/USER/REPO.git
+cd REPO
 mvn clean install
-mvn test
