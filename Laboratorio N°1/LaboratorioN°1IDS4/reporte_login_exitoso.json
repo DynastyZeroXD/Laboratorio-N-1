@@ -1,0 +1,75 @@
+{
+  "test_name": "Login Exitoso",
+  "status": "PASÓ",
+  "start_time": "2026-04-16T15:08:25.376259",
+  "end_time": "2026-04-16T15:08:44.665628",
+  "duration_seconds": 19.289369,
+  "total_steps": 9,
+  "total_errors": 0,
+  "steps": [
+    {
+      "timestamp": "2026-04-16T15:08:31.683192",
+      "action": "Página abierta",
+      "details": "URL: https://www.saucedemo.com/",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:33.224469",
+      "action": "Ventana maximizada",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:34.747177",
+      "action": "Campo de usuario localizado",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:36.357251",
+      "action": "Usuario ingresado",
+      "details": "Usuario: standard_user",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:37.869675",
+      "action": "Campo de contraseña localizado",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:39.448542",
+      "action": "Contraseña ingresada",
+      "details": "Longitud: 11 caracteres",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:40.963651",
+      "action": "Botón login localizado",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:42.635188",
+      "action": "Botón login presionado",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:44.655682",
+      "action": "Página de inventario cargada",
+      "details": "URL actual: https://www.saucedemo.com/inventory.html",
+      "success": true,
+      "icon": "OK"
+    }
+  ],
+  "errors": []
+}

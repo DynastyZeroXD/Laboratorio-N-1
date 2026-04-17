@@ -1,0 +1,38 @@
+
+==========================================================================
+REPORTE: Validar Contenido del Carrito
+==========================================================================
+
+ESTADO: PASÓ
+FECHA: 16/04/2026 15:09:25
+DURACION: 21.90 segundos
+
+==========================================================================
+LOG DE PASOS (10 pasos)
+==========================================================================
+
+1. [OK] Página abierta
+   -> URL: https://www.saucedemo.com/
+2. [OK] Ventana maximizada
+3. [OK] Login completado
+4. [OK] Producto agregado
+   -> Sauce Labs Backpack
+5. [OK] Icono del carrito localizado
+6. [OK] Carrito abierto
+7. [OK] Página del carrito cargada
+8. [OK] Productos en carrito localizados
+   -> Cantidad: 1
+9. [OK] Información del producto obtenida
+   -> Nombre: Sauce Labs Backpack
+10. [OK] Precio obtenido
+   -> Precio: $29.99
+
+==========================================================================
+ERRORES (0 errores)
+==========================================================================
+
+Sin errores detectados
+
+==========================================================================
+FIN DEL REPORTE
+==========================================================================

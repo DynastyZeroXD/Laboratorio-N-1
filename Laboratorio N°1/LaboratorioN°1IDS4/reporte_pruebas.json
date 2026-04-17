@@ -1,0 +1,69 @@
+{
+  "titulo": "Reporte de Pruebas Selenium",
+  "proyecto": "Laboratorio N°1 IDS4",
+  "fecha_inicio": "2026-04-16T14:42:54.361750",
+  "fecha_fin": "2026-04-16T14:44:44.137742",
+  "duracion_segundos": 109.775992,
+  "resumen": {
+    "total": 4,
+    "exitosas": 4,
+    "fallidas": 0,
+    "tasa_exito": 100.0
+  },
+  "resultados": [
+    {
+      "name": "Login Exitoso",
+      "status": "PASÓ",
+      "description": "Login exitoso con usuario estándar (standard_user)",
+      "steps": [
+        "Página abierta y ventana maximizada",
+        "Usuario ingresado: standard_user",
+        "Contraseña ingresada: secret_sauce",
+        "Botón login presionado",
+        "Página de inventario cargada correctamente",
+        "URL verificada: https://www.saucedemo.com/inventory.html"
+      ],
+      "timestamp": "2026-04-16T14:43:15.759643"
+    },
+    {
+      "name": "Login Inválido",
+      "status": "PASÓ",
+      "description": "Valida mensaje de error con credenciales incorrectas",
+      "steps": [
+        "Página abierta y ventana maximizada",
+        "Usuario incorrecto ingresado: usuario_incorrecto",
+        "Contraseña incorrecta ingresada",
+        "Botón login presionado",
+        "Mensaje de error capturado: 'Epic sadface: Username and password do not match any user in this service'"
+      ],
+      "timestamp": "2026-04-16T14:43:39.424091"
+    },
+    {
+      "name": "Agregar Producto",
+      "status": "PASÓ",
+      "description": "Agrega Sauce Labs Backpack al carrito correctamente",
+      "steps": [
+        "Página abierta y ventana maximizada",
+        "Login exitoso - Usuario en inventario",
+        "Botón 'Agregar al carrito' presionado para Sauce Labs Backpack",
+        "Cantidad en carrito: 1"
+      ],
+      "timestamp": "2026-04-16T14:44:12.268791"
+    },
+    {
+      "name": "Validar Carrito",
+      "status": "PASÓ",
+      "description": "Carrito contiene 1 producto: Sauce Labs Backpack ($29.99)",
+      "steps": [
+        "Página abierta y ventana maximizada",
+        "Login exitoso",
+        "Producto agregado al carrito",
+        "Icono del carrito presionado",
+        "Cantidad de productos en carrito: 1",
+        "Producto: Sauce Labs Backpack",
+        "Precio: $29.99"
+      ],
+      "timestamp": "2026-04-16T14:44:41.561798"
+    }
+  ]
+}

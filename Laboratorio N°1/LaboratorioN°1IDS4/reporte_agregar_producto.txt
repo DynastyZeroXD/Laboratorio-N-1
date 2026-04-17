@@ -1,0 +1,35 @@
+
+==========================================================================
+REPORTE: Agregar Producto al Carrito
+==========================================================================
+
+ESTADO: PASÓ
+FECHA: 16/04/2026 15:09:05
+DURACION: 17.33 segundos
+
+==========================================================================
+LOG DE PASOS (7 pasos)
+==========================================================================
+
+1. [OK] Página abierta
+   -> URL: https://www.saucedemo.com/
+2. [OK] Ventana maximizada
+3. [OK] Login iniciado
+   -> Usuario: standard_user
+4. [OK] Login completado
+   -> URL: https://www.saucedemo.com/inventory.html
+5. [OK] Botón 'Agregar al carrito' localizado
+6. [OK] Producto agregado al carrito
+   -> Producto: Sauce Labs Backpack
+7. [OK] Carrito validado
+   -> Productos en carrito: 1
+
+==========================================================================
+ERRORES (0 errores)
+==========================================================================
+
+Sin errores detectados
+
+==========================================================================
+FIN DEL REPORTE
+==========================================================================

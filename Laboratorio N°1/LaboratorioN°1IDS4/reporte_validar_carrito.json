@@ -1,0 +1,82 @@
+{
+  "test_name": "Validar Contenido del Carrito",
+  "status": "PASÓ",
+  "start_time": "2026-04-16T15:09:25.648462",
+  "end_time": "2026-04-16T15:09:47.546436",
+  "duration_seconds": 21.897974,
+  "total_steps": 10,
+  "total_errors": 0,
+  "steps": [
+    {
+      "timestamp": "2026-04-16T15:09:30.765721",
+      "action": "Página abierta",
+      "details": "URL: https://www.saucedemo.com/",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:32.295215",
+      "action": "Ventana maximizada",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:39.228485",
+      "action": "Login completado",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:40.832885",
+      "action": "Producto agregado",
+      "details": "Sauce Labs Backpack",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:41.865287",
+      "action": "Icono del carrito localizado",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:43.449240",
+      "action": "Carrito abierto",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:44.466774",
+      "action": "Página del carrito cargada",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:45.986659",
+      "action": "Productos en carrito localizados",
+      "details": "Cantidad: 1",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:47.543851",
+      "action": "Información del producto obtenida",
+      "details": "Nombre: Sauce Labs Backpack",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:47.544150",
+      "action": "Precio obtenido",
+      "details": "Precio: $29.99",
+      "success": true,
+      "icon": "OK"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,61 @@
+{
+  "test_name": "Agregar Producto al Carrito",
+  "status": "PASÓ",
+  "start_time": "2026-04-16T15:09:05.860648",
+  "end_time": "2026-04-16T15:09:23.188321",
+  "duration_seconds": 17.327673,
+  "total_steps": 7,
+  "total_errors": 0,
+  "steps": [
+    {
+      "timestamp": "2026-04-16T15:09:10.615019",
+      "action": "Página abierta",
+      "details": "URL: https://www.saucedemo.com/",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:12.147374",
+      "action": "Ventana maximizada",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:13.762780",
+      "action": "Login iniciado",
+      "details": "Usuario: standard_user",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:19.017642",
+      "action": "Login completado",
+      "details": "URL: https://www.saucedemo.com/inventory.html",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:20.557245",
+      "action": "Botón 'Agregar al carrito' localizado",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:22.139590",
+      "action": "Producto agregado al carrito",
+      "details": "Producto: Sauce Labs Backpack",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:23.186699",
+      "action": "Carrito validado",
+      "details": "Productos en carrito: 1",
+      "success": true,
+      "icon": "OK"
+    }
+  ],
+  "errors": []
+}

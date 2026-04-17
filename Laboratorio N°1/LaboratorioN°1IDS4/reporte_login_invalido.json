@@ -1,0 +1,68 @@
+{
+  "test_name": "Login Inválido",
+  "status": "PASÓ",
+  "start_time": "2026-04-16T15:08:47.071932",
+  "end_time": "2026-04-16T15:09:03.232216",
+  "duration_seconds": 16.160284,
+  "total_steps": 8,
+  "total_errors": 0,
+  "steps": [
+    {
+      "timestamp": "2026-04-16T15:08:51.827902",
+      "action": "Página abierta",
+      "details": "URL: https://www.saucedemo.com/",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:53.368416",
+      "action": "Ventana maximizada",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:54.885397",
+      "action": "Campo de usuario localizado",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:56.505255",
+      "action": "Usuario incorrecto ingresado",
+      "details": "Usuario: usuario_incorrecto",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:58.019054",
+      "action": "Campo de contraseña localizado",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:08:59.593270",
+      "action": "Contraseña incorrecta ingresada",
+      "details": "Longitud: 20 caracteres",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:01.197174",
+      "action": "Botón login presionado",
+      "details": "",
+      "success": true,
+      "icon": "OK"
+    },
+    {
+      "timestamp": "2026-04-16T15:09:03.230252",
+      "action": "Mensaje de error capturado",
+      "details": "Texto: Epic sadface: Username and password do not match any user in this service",
+      "success": true,
+      "icon": "OK"
+    }
+  ],
+  "errors": []
+}

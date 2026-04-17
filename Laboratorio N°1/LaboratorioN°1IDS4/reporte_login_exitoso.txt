@@ -1,0 +1,36 @@
+
+==========================================================================
+REPORTE: Login Exitoso
+==========================================================================
+
+ESTADO: PASÓ
+FECHA: 16/04/2026 15:08:25
+DURACION: 19.29 segundos
+
+==========================================================================
+LOG DE PASOS (9 pasos)
+==========================================================================
+
+1. [OK] Página abierta
+   -> URL: https://www.saucedemo.com/
+2. [OK] Ventana maximizada
+3. [OK] Campo de usuario localizado
+4. [OK] Usuario ingresado
+   -> Usuario: standard_user
+5. [OK] Campo de contraseña localizado
+6. [OK] Contraseña ingresada
+   -> Longitud: 11 caracteres
+7. [OK] Botón login localizado
+8. [OK] Botón login presionado
+9. [OK] Página de inventario cargada
+   -> URL actual: https://www.saucedemo.com/inventory.html
+
+==========================================================================
+ERRORES (0 errores)
+==========================================================================
+
+Sin errores detectados
+
+==========================================================================
+FIN DEL REPORTE
+==========================================================================
